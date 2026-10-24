@@ -40,6 +40,7 @@ def main():
             if os.path.exists(out_file):
                 print(f"Skipping {filename}, PDF already exists.")
                 continue
+                
             convert_to_pdf_with_notes(powerpoint, inp_file, out_file)
 
     # Close PowerPoint application
