@@ -42,6 +42,7 @@ def main():
                 continue
             convert_to_pdf_with_notes(powerpoint, inp_file, out_file)
 
+    # Close PowerPoint application
     powerpoint.Quit()
     print("All conversions finished!")
      
